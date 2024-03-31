@@ -1,0 +1,53 @@
+@media (prefers-color-scheme: dark) {
+    .bg-primary {
+        background-color: #011222;
+    }
+
+    .bg-secondary {
+        background-color: #262c2f;
+    }
+
+    .text-primary {
+        color: #d5dbe1;
+    }
+
+    .text-primary .clickable:hover {
+        background-color: #031629;
+    }
+
+    a {
+        color: #d5dbe1;
+    }
+
+    a:hover {
+        color: #f8f9fa;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    .bg-primary {
+        background-color: #FCFAFA;
+    }
+
+    .bg-secondary {
+        background-color: #DCE4EB;
+    }
+
+    .text-primary {
+        color: #001A23;
+    }
+
+    .text-primary .clickable:hover {
+        background-color: #FFFFFF;
+    }
+
+    a {
+        color: #323232;
+    }
+
+    a:hover {
+        color: #0369a1;
+    }
+}
+
+
